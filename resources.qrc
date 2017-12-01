@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/about.png</file>
+        <file>images/app.ico</file>
+        <file>images/asave.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/editclear.png</file>
+        <file>images/edit-select-all.png</file>
+        <file>images/exportpdf.png</file>
+        <file>images/file.ico</file>
+        <file>images/fileprint.png</file>
+        <file>images/fileprint_preview.png</file>
+        <file>images/find.png</file>
+        <file>images/font.png</file>
+        <file>images/logo.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/quit.png</file>
+        <file>images/redo.png</file>
+        <file>images/replace.png</file>
+        <file>images/save.png</file>
+        <file>images/stock_delete.png</file>
+        <file>images/textcenter.png</file>
+        <file>images/textcolor.png</file>
+        <file>images/textjustify.png</file>
+        <file>images/textleft.png</file>
+        <file>images/textright.png</file>
+        <file>images/undo.png</file>
+        <file>images/zoom_in.png</file>
+        <file>images/zoom_out.png</file>
+    </qresource>
+</RCC>

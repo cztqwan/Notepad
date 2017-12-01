@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FindReplace</class>
+ <widget class="QDialog" name="FindReplace">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>查找&amp;替换</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="find">
+      <attribute name="title">
+       <string>查找(&amp;F)</string>
+      </attribute>
+      <widget class="QLineEdit" name="lineEditF">
+       <property name="geometry">
+        <rect>
+         <x>101</x>
+         <y>8</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>35</x>
+         <y>8</y>
+         <width>65</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>查找内容：</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonNextF">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>6</y>
+         <width>100</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>查找下一个(&amp;F)</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonCancleF">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>80</y>
+         <width>100</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>取消(&amp;C)</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxSenceF">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>93</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>区分大小写(&amp;H)</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>41</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>方向：</string>
+       </property>
+       <widget class="QRadioButton" name="radioButtonUpF">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>20</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>向上(&amp;U)</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButtonDownF">
+        <property name="geometry">
+         <rect>
+          <x>89</x>
+          <y>20</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>向下(&amp;D)</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="replace">
+      <attribute name="title">
+       <string>替换(&amp;R)</string>
+      </attribute>
+      <widget class="QLineEdit" name="lineEditR">
+       <property name="geometry">
+        <rect>
+         <x>101</x>
+         <y>8</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxSenceR">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>93</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>区分大小写(&amp;H)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>35</x>
+         <y>8</y>
+         <width>65</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>查找内容：</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonNextR">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>6</y>
+         <width>100</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>查找下一个(&amp;F)</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonCancleR">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>80</y>
+         <width>100</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>取消(&amp;C)</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditReplace">
+       <property name="geometry">
+        <rect>
+         <x>101</x>
+         <y>33</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>35</x>
+         <y>33</y>
+         <width>65</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>替换为：</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonReplace">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>31</y>
+         <width>100</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>替换(&amp;R)</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonReplaceAll">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>56</y>
+         <width>100</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>全部替换(&amp;A)</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
